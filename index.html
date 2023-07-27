@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="The Bright Future of Web 3.0" />
+    <meta
+      property="og:descripton"
+      content="We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+  But is it really fulfilling its promise?"
+    />
+    <meta propertu="og:type" content="website" />
+    <meta name="apple-touch-startup-image" href="#" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="The Bright Future of Web 3.0"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-web-app-status-bar-style" content="hsl(36, 100%, 99%)" />
+    <meta name="theme-color" content="hsl(36, 100%, 99%)" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | News homepage</title>
+    <style>
+      html {
+        -ms-text-size-adjust: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav id="nav" class="header__nav--mobile">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">New</a></li>
+        <li><a href="#">Popular</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Categories</a></li>
+      </ul>
+    </nav>
+    <div class="wrapper" id="wrapper">
+      <div id="ctn" class="container">
+        <header>
+          <div class="header__logo">
+            <img src="./assets/images/logo.svg" alt="The logo" />
+          </div>
+          <nav id="desk" class="header__nav--desktop">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">New</a></li>
+              <li><a href="#">Popular</a></li>
+              <li><a href="#">Trending</a></li>
+              <li><a href="#">Categories</a></li>
+            </ul>
+          </nav>
+          <div id="btn" class="header__hamburger">
+            <img src="./assets/images/icon-menu.svg" alt="" />
+          </div>
+        </header>
+        <main>
+          <section class="first-section">
+            <div class="first-section__bright">
+              <picture class="first-section__bright__picture">
+                <source
+                  media="(min-width:800px)"
+                  srcset="./assets/images/image-web-3-desktop.jpg"
+                />
+                <img
+                  src="./assets/images/image-web-3-mobile.jpg"
+                  alt="image web-3 mobile"
+                />
+              </picture>
+              <div class="first-section__bright__ctn">
+                <h1 class="first-section__bright__heading">
+                  The Bright Future of Web 3.0?
+                </h1>
+                <div>
+                  <p class="first-section__bright__paragraph">
+                    We dive into the next evolution of the web that claims to
+                    put the power of the platforms back into the hands of the
+                    people. But is it really fulfilling its promise?
+                  </p>
+                  <button class="first-section__bright__button button">
+                    Read more
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="first-section__dark">
+              <h2 class="first-section__dark__heading">New</h2>
+              <div class="first-section__dark__section">
+                <h3 class="first-section__dark__section__heading">
+                  Hydrogen VS Electric Cars
+                </h3>
+                <p class="first-section__dark__section__paragraph">
+                  Will hydrogen-fueled cars ever catch up to EVs?
+                </p>
+              </div>
+              <hr />
+              <div class="first-section__dark__section">
+                <h3 class="first-section__dark__section__heading">
+                  The Downsides of AI Artistry
+                </h3>
+                <p class="first-section__dark__section__paragraph">
+                  What are the possible adverse effects of on-demand AI image
+                  generation?
+                </p>
+              </div>
+              <hr />
+              <div class="first-section__dark__section">
+                <h3 class="first-section__dark__section__heading">
+                  Is VC Funding Drying Up?
+                </h3>
+                <p class="first-section__dark__section__paragraph">
+                  Private funding by VC firms is down 50% YOY. We take a look at
+                  what that means.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="second-section">
+            <div>
+              <img src="./assets/images/image-retro-pcs.jpg" alt="Retro pc" />
+              <div class="second-section__description">
+                <h2 class="second-section__description__number">01</h2>
+                <h3 class="second-section__description__heading">
+                  Reviving Retro PCs
+                </h3>
+                <p class="second-section__description__paragraph">
+                  What happens when old PCs are given modern upgrades?
+                </p>
+              </div>
+            </div>
+            <div>
+              <img
+                src="./assets/images/image-top-laptops.jpg"
+                alt="Top laptops"
+              />
+              <div class="second-section__description">
+                <h2 class="second-section__description__number">02</h2>
+                <h3 class="second-section__description__heading">
+                  Top 10 Laptops of 2022
+                </h3>
+                <p class="second-section__description__paragraph">
+                  Our best picks for various needs and budgets.
+                </p>
+              </div>
+            </div>
+            <div>
+              <img
+                src="./assets/images/image-gaming-growth.jpg"
+                alt="Retro pc"
+              />
+              <div class="second-section__description">
+                <h2 class="second-section__description__number">03</h2>
+                <h3 class="second-section__description__heading">
+                  The Growth of Gaming
+                </h3>
+                <p class="second-section__description__paragraph">
+                  How the pandemic has sparked fresh opportunities.
+                </p>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
