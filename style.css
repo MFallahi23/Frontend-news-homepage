@@ -230,7 +230,7 @@ button.first-section__bright__button:hover {
 @media screen and (min-width: 800px) {
   /* Container */
   .container {
-    max-width: 1300px;
+    max-width: 1440px;
     margin: 2rem auto;
   }
   section.first-section {
